@@ -12,3 +12,7 @@ df = get_price(security, count = 30, end_date='2023-10-1', frequency='daily',
                skip_paused=True, fq='none',  panel=False, fill_paused=True)
 
 print(df)
+
+q = query(valuation).filter(valuation.code == '601127.XSHG')
+df_2 = get_fundamentals(q, '2023-10-01')
+print(df_2)
