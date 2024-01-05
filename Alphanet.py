@@ -12,3 +12,6 @@ df = get_price(security, count = 30, end_date='2023-10-1', frequency='daily',
                skip_paused=True, fq='none',  panel=False, fill_paused=True)
 
 print(df)
+
+
+//hello
